@@ -1,4 +1,4 @@
-"""A skip list implement.
+"""A skiplist implement.
 
 """
 
