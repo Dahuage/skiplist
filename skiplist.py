@@ -158,7 +158,7 @@ class Skiplist:
         while level_pointer >= 0:
             dummy_head_link = head_link
             head_link = head_link.next
-            while is_not_none(head_link):
+            while head_link is not None:
                 head_node = head_link.skp_list_node
                 if head_node.key >= k:
                     tail_link = head_node.link[level_pointer]
