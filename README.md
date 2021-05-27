@@ -1,2 +1,2 @@
 # skiplist
-A skiplist pure in Python
+A skiplist in pure Python
