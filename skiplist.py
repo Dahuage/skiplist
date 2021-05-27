@@ -150,7 +150,7 @@ class Skiplist:
         self._nodes.append(node)
         self._length += 1
 
-    def find(self, k, key=None):
+    def search(self, k, key=None):
         level_pointer = self._level - 1
         head_link = self._head[level_pointer]
         tail_link = None
